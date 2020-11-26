@@ -50,9 +50,9 @@ namespace ServiceReservasi
         [DataMember]
         public string NamaLokasi { get; set; }
         [DataMember]
-        public string DeskirpsiFull { get; set; }
+        public string DeskripsiFull { get; set; }
         [DataMember]
-        public string Kuota { get; set; }
+        public int Kuota { get; set; }
     }
     [DataContract]
     public class CekLokasi
